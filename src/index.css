@@ -46,3 +46,16 @@
     opacity: 1;
   }
 }
+
+
+/* scroll bar styling */
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background:#000000;
+}
