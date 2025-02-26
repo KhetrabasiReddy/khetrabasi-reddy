@@ -9,7 +9,7 @@ function App() {
         <div className="container mx-auto px-4 animate-fadeIn flex flex-col justify-center items-center ">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 animate-slideDown">Khetrabasi Reddy</h1>
           <h2 className="text-xl md:text-2xl mb-6 text-blue-200 animate-slideUp">Software Developer | Java | React | Spring Boot</h2>
-          <p className="text-lg max-w-2xl mb-8 text-gray-300 animate-fadeIn">
+          <p className="text-lg max-w-2xl mb-8 text-gray-300 animate-fadeIn text-center">
             🚀 Passionate about building scalable web applications and software solutions. 
             I specialize in Java, Spring Boot, React.js, and MySQL, with a strong foundation 
             in frontend and backend development.
