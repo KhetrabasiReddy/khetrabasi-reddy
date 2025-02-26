@@ -430,7 +430,7 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8">
             <div className="group">
-              <h2 className="text-3xl font-bold mb-8 text-blue-400">Experience</h2>
+              <h2 className="text-3xl font-bold mb-8 text-blue-400 text-center">Experience</h2>
               <div className="bg-gray-900 p-6 rounded-xl shadow-lg group-hover:shadow-2xl transition-all duration-300 transform group-hover:-translate-y-2">
                 <h3 className="text-xl font-semibold text-white">Web Developer Intern</h3>
                 <p className="text-gray-400 mb-4">InternPE (Oct 2024 – Nov 2024)</p>
@@ -453,7 +453,7 @@ function App() {
             </div> */}
 
             <div className="group">
-              <h2 className="text-3xl font-bold mb-8 text-blue-400">Education</h2>
+              <h2 className="text-3xl font-bold mb-8 text-blue-400 text-center">Education</h2>
               <div className="bg-gray-900 p-6 rounded-xl shadow-lg group-hover:shadow-2xl transition-all duration-300 transform group-hover:-translate-y-2">
                 <h3 className="text-xl font-semibold text-white">Bachelor of Technology (B.Tech) (2020 - 2024)</h3>
                 <p className="text-gray-400">Computer Science & Engineering</p>
