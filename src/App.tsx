@@ -1,5 +1,6 @@
 
 import { ShoppingBag, Lock, ClipboardCheck, Globe, Github, Linkedin, Mail, Phone, MapPin, BookOpen, Chrome, MessageSquare, Code, Database, Utensils, Calculator, PenTool as Tools } from 'lucide-react';
+import { ReactTyped } from 'react-typed';
 
 function App() {
 
@@ -132,7 +133,21 @@ function App() {
       {/* Hero Section */}
       <header className="bg-gradient-to-r from-blue-900 to-purple-900 text-white py-20 ">
         <div className="container mx-auto px-4 animate-fadeIn flex flex-col justify-center items-center ">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 animate-slideDown">Khetrabasi Reddy</h1>
+
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 animate-slideDown">
+
+            <ReactTyped
+              strings={[
+               'Hi! 👋',
+               `I'm Khetrabasi 😊`,
+              ]}
+              typeSpeed={30}
+              backSpeed={20}
+              loop
+            />
+
+          </h1>
+
           <h2 className="text-xl md:text-2xl mb-6 text-blue-200 animate-slideUp">Software Developer | Java | React | Spring Boot</h2>
           <p className="text-lg max-w-2xl mb-8 text-gray-300 animate-fadeIn text-center">
             🚀 Passionate about building scalable web applications and software solutions.
@@ -170,10 +185,10 @@ function App() {
 
       {/* Skills Section */}
       <section className="py-20 bg-gray-800">
-        <div className="container mx-auto px-4">
+        <div  className={`container mx-auto px-4 `}>
           <h2 className="text-3xl font-bold mb-12 text-center text-blue-400">Technical Expertise</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="group bg-gray-900 p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+            <div className={`group bg-gray-900 p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 `}>
               <div className="flex items-center gap-4 mb-6">
                 <div className="p-3 bg-blue-600 rounded-lg group-hover:bg-blue-500 transition-colors">
                   <Code className="w-8 h-8" />
@@ -494,7 +509,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 border-t border-gray-800">
         <div className="container mx-auto px-4 text-center">
-          <p className="mb-4 text-gray-400">Currently learning: Spring Boot Security & Next.js</p>
+          <p className="mb-4 text-gray-400 hover:text-white transition-colors ">Currently learning: Spring Boot Security & Next.js</p>
           <div className="flex justify-center gap-4">
             <a href="mailto:reddykhetrabasi@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors transform hover:scale-110">
               <Mail className="w-6 h-6" />
